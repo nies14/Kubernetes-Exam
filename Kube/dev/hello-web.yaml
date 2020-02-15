@@ -81,7 +81,7 @@ spec:
   - host: tanvir14.eastus2.cloudapp.azure.com
     http:
       paths:           
-      - path: /api/node/Home/
+      - path: /
         backend:
           serviceName: aks-helloworld-service
           servicePort: 80
