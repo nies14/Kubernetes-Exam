@@ -73,9 +73,9 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-staging
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
 spec:
-    tls:
+  tls:
     - hosts:
-  - tanvir14.eastus2.cloudapp.azure.com
+        - tanvir14.eastus2.cloudapp.azure.com
       secretName: tanvir14-eastus-cloudapp-azure-com-staging
  rules:
   - host: tanvir14.eastus2.cloudapp.azure.com
